@@ -2,7 +2,7 @@
 
 Please execute the following command to hunt secret key:
 
-courbe(nbr_max,nbr_bits,bit_tested,key) where
+test_key(nb_max,nb_bits,key) here
 
     nbr_max is the number of input to be tested, starting from zero
     
@@ -11,3 +11,6 @@ courbe(nbr_max,nbr_bits,bit_tested,key) where
     bit_tested is the bit to be considered to generate the 2 classes
     
     key is the secret key value
+
+for exemple when the secrret key is 7, please execute:
+>>>test_key(255,9,7)
